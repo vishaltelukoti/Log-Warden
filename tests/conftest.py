@@ -1,11 +1,14 @@
 """Pytest configuration and shared fixtures for the Log Warden test suite."""
 
 from __future__ import annotations
-
+import sys
 import pytest
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT_DIR))
 
 from app.main import app
-
 
 @pytest.fixture(scope="function")
 def client():
