@@ -1,0 +1,12 @@
+flask
+pydantic
+python-dotenv
+groq
+pandas
+numpy
+scikit-learn
+spacy
+joblib
+pytest
+pytest-mock
+gunicorn
