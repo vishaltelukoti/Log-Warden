@@ -85,7 +85,23 @@ log-warden/
 ---
 
 # Machine Learning Pipeline
+## Model Selection and Generalization
 
+This project uses two machine learning models:
+
+### Logistic Regression – High Severity Classification
+The task of predicting whether a log entry represents a high severity event is a binary classification problem. Logistic Regression is well suited for this task because it efficiently models the probability of binary outcomes and performs well with high-dimensional sparse features such as TF-IDF vectors derived from log text.
+
+### RandomForestRegressor – Time to Failure Prediction
+Time to failure prediction is a regression problem. Although Linear Regression was initially considered, log patterns often contain non-linear relationships between features and system failures. RandomForestRegressor was chosen because it captures non-linear relationships and interactions between log features through an ensemble of decision trees, leading to more robust predictions.
+
+### Ensuring Generalization
+To ensure the models generalize well to unseen log data:
+
+- The dataset was split using an **80/20 train-test split**
+- **Cross-validation** was used to evaluate model stability
+- **TF-IDF vectorization** was used to transform log text into meaningful numerical features
+- Logistic Regression uses **L2 regularization**, helping reduce overfitting
 The ML pipeline performs two main tasks:
 
 ### Severity Classification
