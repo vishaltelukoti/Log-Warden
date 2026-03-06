@@ -417,4 +417,3 @@ Vishal Telukoti
 
 ---
 
-If you'd like, I can also give you a **much more polished README (with badges, diagrams, and GitHub-style sections)** that makes the repo look more professional to reviewers or recruiters.
