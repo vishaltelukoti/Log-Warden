@@ -1,0 +1,631 @@
+log_text,time_to_failure,high_severity
+2026-03-03 14:18:31 WARN [service] Temporary DB failover triggered,37,1
+2026-03-03 14:23:31 ERROR [service] OutOfMemoryError occurred,27,1
+2026-03-03 14:26:31 ERROR [service] Database connection lost,45,1
+2026-03-03 14:27:31 WARN [service] Thread pool nearing capacity,56,0
+2026-03-03 14:28:31 INFO [service] Configuration loaded - retry attempt logged,110,0
+2026-03-03 14:32:31 INFO [service] Background sync finished,191,0
+2026-03-03 14:37:31 WARN [service] Slow response detected in API,42,0
+2026-03-03 14:40:31 WARN [service] Slow response detected in API,79,1
+2026-03-03 14:45:31 INFO [service] Application started successfully - retry attempt logged,170,0
+2026-03-03 14:47:31 INFO [service] Health check passed,108,0
+2026-03-03 14:48:31 ERROR [service] Primary node unreachable - retry attempt logged,33,1
+2026-03-03 14:52:31 ERROR [service] Connection pool exhausted,22,1
+2026-03-03 14:54:31 INFO [service] User login successful,152,0
+2026-03-03 14:56:31 INFO [service] Service heartbeat received,140,0
+2026-03-03 15:00:31 WARN [service] Disk usage above 80% - retry attempt logged,50,0
+2026-03-03 15:04:31 INFO [service] Configuration loaded,113,0
+2026-03-03 15:05:31 ERROR [service] Database connection lost,3,0
+2026-03-03 15:06:31 INFO [service] Health check passed,131,0
+2026-03-03 15:09:31 ERROR [service] Segmentation fault detected,0,1
+2026-03-03 15:12:31 WARN [service] Disk usage above 80%,57,0
+2026-03-03 15:14:31 INFO [service] Health check passed,153,0
+2026-03-03 15:18:31 ERROR [service] TimeoutException in service Y,34,0
+2026-03-03 15:22:31 ERROR [service] OutOfMemoryError occurred,18,1
+2026-03-03 15:25:31 ERROR [service] Segmentation fault detected,35,1
+2026-03-03 15:30:31 INFO [service] Service heartbeat received - retry attempt logged,177,0
+2026-03-03 15:32:31 WARN [service] Disk usage above 80%,83,0
+2026-03-03 15:35:31 INFO [service] Application started successfully,186,0
+2026-03-03 15:37:31 INFO [service] Health check passed,121,0
+2026-03-03 15:40:31 INFO [service] Application started successfully - retry attempt logged,164,0
+2026-03-03 15:42:31 WARN [service] Thread pool nearing capacity,80,1
+2026-03-03 15:46:31 ERROR [service] Connection pool exhausted - retry attempt logged,32,1
+2026-03-03 15:49:31 INFO [service] User login successful,170,0
+2026-03-03 15:52:31 INFO [service] Health check passed - retry attempt logged,185,0
+2026-03-03 15:56:31 INFO [service] Configuration loaded - retry attempt logged,161,0
+2026-03-03 15:58:31 ERROR [service] TimeoutException in service Y,22,1
+2026-03-03 16:01:31 INFO [service] Service heartbeat received - retry attempt logged,170,0
+2026-03-03 16:06:31 WARN [service] Temporary DB failover triggered,31,0
+2026-03-03 16:11:31 ERROR [service] TimeoutException in service Y - retry attempt logged,22,0
+2026-03-03 16:16:31 WARN [service] Cache miss rate increasing - retry attempt logged,31,0
+2026-03-03 16:17:31 ERROR [service] Service crashed unexpectedly,9,1
+2026-03-03 16:21:31 WARN [service] High memory usage detected,83,1
+2026-03-03 16:23:31 INFO [service] Background sync finished,80,0
+2026-03-03 16:25:31 ERROR [service] TimeoutException in service Y,7,1
+2026-03-03 16:30:31 ERROR [service] Connection pool exhausted,18,1
+2026-03-03 16:32:31 INFO [service] Service heartbeat received,199,0
+2026-03-03 16:33:31 ERROR [service] NullPointerException in module X,19,0
+2026-03-03 16:35:31 INFO [service] Service heartbeat received,177,1
+2026-03-03 16:37:31 ERROR [service] NullPointerException in module X,12,1
+2026-03-03 16:40:31 INFO [service] Application started successfully - retry attempt logged,125,0
+2026-03-03 16:41:31 INFO [service] Application started successfully,170,0
+2026-03-03 16:46:31 ERROR [service] Connection pool exhausted,22,1
+2026-03-03 16:48:31 INFO [service] Scheduled job completed,119,0
+2026-03-03 16:52:31 ERROR [service] Connection pool exhausted,21,1
+2026-03-03 16:56:31 ERROR [service] Connection pool exhausted,36,0
+2026-03-03 16:57:31 ERROR [service] Connection pool exhausted - retry attempt logged,9,1
+2026-03-03 17:02:31 INFO [service] User login successful,167,0
+2026-03-03 17:07:31 WARN [service] Temporary DB failover triggered,63,0
+2026-03-03 17:08:31 ERROR [service] Database connection lost,14,0
+2026-03-03 17:09:31 ERROR [service] Service crashed unexpectedly,20,0
+2026-03-03 17:13:31 WARN [service] Disk usage above 80%,73,1
+2026-03-03 17:18:31 INFO [service] Scheduled job completed,136,1
+2026-03-03 17:23:31 INFO [service] Application started successfully,119,0
+2026-03-03 17:27:31 INFO [service] Configuration loaded,130,0
+2026-03-03 17:32:31 ERROR [service] Segmentation fault detected,10,1
+2026-03-03 17:34:31 INFO [service] User login successful,100,0
+2026-03-03 17:39:31 INFO [service] Service heartbeat received,144,0
+2026-03-03 17:42:31 INFO [service] Background sync finished,164,1
+2026-03-03 17:47:31 INFO [service] Service heartbeat received,120,0
+2026-03-03 17:49:31 INFO [service] Application started successfully,176,1
+2026-03-03 17:51:31 INFO [service] Health check passed,106,0
+2026-03-03 17:54:31 INFO [service] User login successful,176,0
+2026-03-03 17:56:31 ERROR [service] OutOfMemoryError occurred,29,1
+2026-03-03 17:57:31 INFO [service] User login successful,160,0
+2026-03-03 18:01:31 INFO [service] User login successful - retry attempt logged,127,0
+2026-03-03 18:06:31 INFO [service] Scheduled job completed,132,0
+2026-03-03 18:11:31 INFO [service] User login successful,145,0
+2026-03-03 18:12:31 ERROR [service] Connection pool exhausted - retry attempt logged,7,1
+2026-03-03 18:14:31 INFO [service] Application started successfully,150,0
+2026-03-03 18:18:31 WARN [service] High memory usage observed,21,1
+2026-03-03 18:23:31 ERROR [service] Segmentation fault detected,0,1
+2026-03-03 18:27:31 ERROR [service] Service crashed unexpectedly - retry attempt logged,11,1
+2026-03-03 18:28:31 INFO [service] Configuration loaded,122,0
+2026-03-03 18:32:31 INFO [service] Health check passed,107,0
+2026-03-03 18:33:31 INFO [service] Configuration loaded,141,0
+2026-03-03 18:38:31 ERROR [service] Primary node unreachable - retry attempt logged,28,1
+2026-03-03 18:41:31 INFO [service] Application started successfully - retry attempt logged,91,0
+2026-03-03 18:43:31 ERROR [service] TimeoutException in service Y,38,1
+2026-03-03 18:47:31 INFO [service] Health check passed,121,0
+2026-03-03 18:51:31 WARN [service] Slow response detected in API,64,0
+2026-03-03 18:55:31 INFO [service] Background sync finished,166,0
+2026-03-03 18:58:31 INFO [service] Application started successfully - retry attempt logged,172,0
+2026-03-03 19:01:31 INFO [service] Background sync finished,94,0
+2026-03-03 19:03:31 INFO [service] Background sync finished,121,0
+2026-03-03 19:08:31 WARN [service] Disk usage above 80%,84,1
+2026-03-03 19:11:31 ERROR [service] Connection pool exhausted,24,1
+2026-03-03 19:15:31 INFO [service] Background sync finished - retry attempt logged,83,0
+2026-03-03 19:20:31 INFO [service] Background sync finished,136,0
+2026-03-03 19:22:31 INFO [service] Service heartbeat received,174,0
+2026-03-03 19:26:31 ERROR [service] Connection pool exhausted,10,1
+2026-03-03 19:30:31 ERROR [service] TimeoutException in service Y,31,1
+2026-03-03 19:31:31 ERROR [service] OutOfMemoryError occurred,9,1
+2026-03-03 19:32:31 WARN [service] Latency spike observed,89,1
+2026-03-03 19:34:31 INFO [service] Application started successfully - retry attempt logged,199,0
+2026-03-03 19:37:31 WARN [service] Disk usage above 80%,26,1
+2026-03-03 19:38:31 INFO [service] Configuration loaded,196,0
+2026-03-03 19:39:31 ERROR [service] NullPointerException in module X,21,1
+2026-03-03 19:40:31 WARN [service] Disk usage above 80%,74,1
+2026-03-03 19:41:31 ERROR [service] Connection pool exhausted,14,1
+2026-03-03 19:45:31 ERROR [service] Segmentation fault detected,35,0
+2026-03-03 19:50:31 ERROR [service] Database connection lost,0,1
+2026-03-03 19:55:31 ERROR [service] Database connection lost,18,1
+2026-03-03 19:56:31 ERROR [service] Service crashed unexpectedly,21,1
+2026-03-03 19:57:31 INFO [service] Application started successfully,185,0
+2026-03-03 20:01:31 WARN [service] Cache miss rate increasing,87,0
+2026-03-03 20:02:31 ERROR [service] Segmentation fault detected,39,1
+2026-03-03 20:03:31 WARN [service] High memory usage detected - retry attempt logged,92,1
+2026-03-03 20:08:31 INFO [service] Health check passed,202,0
+2026-03-03 20:09:31 WARN [service] Slow response detected in API,28,0
+2026-03-03 20:12:31 ERROR [service] Service crashed unexpectedly - retry attempt logged,20,1
+2026-03-03 20:15:31 INFO [service] Configuration loaded,135,0
+2026-03-03 20:17:31 WARN [service] Thread pool nearing capacity - retry attempt logged,44,0
+2026-03-03 20:20:31 INFO [service] Background sync finished,113,0
+2026-03-03 20:22:31 INFO [service] Health check passed,115,0
+2026-03-03 20:24:31 WARN [service] Cache miss rate increasing,73,0
+2026-03-03 20:26:31 WARN [service] Slow response detected in API,40,1
+2026-03-03 20:29:31 INFO [service] User login successful - retry attempt logged,155,0
+2026-03-03 20:31:31 WARN [service] High memory usage detected - retry attempt logged,76,1
+2026-03-03 20:34:31 ERROR [service] OutOfMemoryError occurred,7,1
+2026-03-03 20:37:31 ERROR [service] OutOfMemoryError occurred,35,1
+2026-03-03 20:38:31 INFO [service] Background sync finished,197,0
+2026-03-03 20:41:31 INFO [service] Service heartbeat received,129,0
+2026-03-03 20:45:31 INFO [service] Background sync finished,174,0
+2026-03-03 20:49:31 WARN [service] Thread pool nearing capacity,77,0
+2026-03-03 20:50:31 WARN [service] High memory usage detected,73,0
+2026-03-03 20:51:31 INFO [service] Scheduled job completed,182,0
+2026-03-03 20:54:31 INFO [service] Scheduled job completed,115,0
+2026-03-03 20:59:31 INFO [service] Application started successfully,102,0
+2026-03-03 21:04:31 WARN [service] High memory usage detected,65,1
+2026-03-03 21:09:31 WARN [service] High memory usage detected,54,1
+2026-03-03 21:14:31 INFO [service] Configuration loaded,150,0
+2026-03-03 21:18:31 ERROR [service] OutOfMemoryError occurred,8,1
+2026-03-03 21:23:31 ERROR [service] TimeoutException in service Y,14,0
+2026-03-03 21:27:31 WARN [service] Disk usage above 80%,40,0
+2026-03-03 21:30:31 INFO [service] User login successful,110,0
+2026-03-03 21:33:31 INFO [service] User login successful,192,0
+2026-03-03 21:34:31 INFO [service] Health check passed,170,0
+2026-03-03 21:35:31 INFO [service] User login successful,152,1
+2026-03-03 21:39:31 ERROR [service] OutOfMemoryError occurred - retry attempt logged,9,1
+2026-03-03 21:44:31 WARN [service] High memory usage detected,53,1
+2026-03-03 21:47:31 INFO [service] Scheduled job completed,105,0
+2026-03-03 21:50:31 INFO [service] Configuration loaded,90,0
+2026-03-03 21:53:31 WARN [service] Disk usage above 80%,77,1
+2026-03-03 21:55:31 WARN [service] Cache miss rate increasing,84,1
+2026-03-03 21:59:31 ERROR [service] Primary node unreachable,0,1
+2026-03-03 22:00:31 INFO [service] Configuration loaded - retry attempt logged,103,0
+2026-03-03 22:02:31 WARN [service] High memory usage detected,46,1
+2026-03-03 22:06:31 INFO [service] Application started successfully,169,0
+2026-03-03 22:10:31 INFO [service] User login successful,178,0
+2026-03-03 22:13:31 WARN [service] Cache miss rate increasing - retry attempt logged,75,0
+2026-03-03 22:14:31 INFO [service] User login successful,96,0
+2026-03-03 22:19:31 ERROR [service] OutOfMemoryError occurred,16,1
+2026-03-03 22:24:31 ERROR [service] Service crashed unexpectedly,10,0
+2026-03-03 22:28:31 INFO [service] Scheduled job completed,143,1
+2026-03-03 22:31:31 ERROR [service] Connection pool exhausted,13,1
+2026-03-03 22:32:31 INFO [service] Service heartbeat received,175,1
+2026-03-03 22:36:31 ERROR [service] NullPointerException in module X,0,1
+2026-03-03 22:38:31 INFO [service] Service heartbeat received,116,0
+2026-03-03 22:39:31 WARN [service] Thread pool nearing capacity,76,0
+2026-03-03 22:44:31 INFO [service] User login successful,155,0
+2026-03-03 22:48:31 INFO [service] Configuration loaded,176,0
+2026-03-03 22:51:31 INFO [service] User login successful,108,0
+2026-03-03 22:55:31 WARN [service] Temporary DB failover triggered - retry attempt logged,54,1
+2026-03-03 22:57:31 WARN [service] Temporary DB failover triggered,80,1
+2026-03-03 23:00:31 INFO [service] Background sync finished - retry attempt logged,165,0
+2026-03-03 23:03:31 ERROR [service] Database connection lost,35,1
+2026-03-03 23:07:31 WARN [service] Slow response detected in API,76,1
+2026-03-03 23:12:31 WARN [service] Thread pool nearing capacity,28,0
+2026-03-03 23:15:31 INFO [service] Configuration loaded,168,0
+2026-03-03 23:20:31 WARN [service] Latency spike observed,83,0
+2026-03-03 23:25:31 INFO [service] Configuration loaded,174,0
+2026-03-03 23:28:31 INFO [service] Configuration loaded - retry attempt logged,146,0
+2026-03-03 23:29:31 INFO [service] User login successful,193,0
+2026-03-03 23:33:31 INFO [service] Health check passed,177,0
+2026-03-03 23:38:31 INFO [service] Service heartbeat received - retry attempt logged,194,0
+2026-03-03 23:40:31 INFO [service] Service heartbeat received - retry attempt logged,128,0
+2026-03-03 23:42:31 ERROR [service] Database connection lost - retry attempt logged,19,1
+2026-03-03 23:46:31 ERROR [service] Connection pool exhausted - retry attempt logged,27,1
+2026-03-03 23:49:31 WARN [service] Slow response detected in API,57,0
+2026-03-03 23:50:31 ERROR [service] Service crashed unexpectedly,21,1
+2026-03-03 23:55:31 ERROR [service] TimeoutException in service Y,25,1
+2026-03-03 23:58:31 INFO [service] Application started successfully,98,0
+2026-03-04 00:03:31 WARN [service] Cache miss rate increasing,69,0
+2026-03-04 00:04:31 ERROR [service] Segmentation fault detected - retry attempt logged,1,1
+2026-03-04 00:08:31 ERROR [service] TimeoutException in service Y,27,1
+2026-03-04 00:11:31 INFO [service] User login successful,141,0
+2026-03-04 00:16:31 INFO [service] Background sync finished,100,0
+2026-03-04 00:19:31 INFO [service] User login successful,121,0
+2026-03-04 00:21:31 ERROR [service] Connection pool exhausted,0,1
+2026-03-04 00:22:31 INFO [service] Scheduled job completed,172,1
+2026-03-04 00:25:31 INFO [service] Background sync finished,97,0
+2026-03-04 00:27:31 WARN [service] Cache miss rate increasing,75,0
+2026-03-04 00:30:31 INFO [service] Health check passed,194,1
+2026-03-04 00:33:31 ERROR [service] Connection pool exhausted,34,0
+2026-03-04 00:37:31 INFO [service] Application started successfully,137,0
+2026-03-04 00:38:31 INFO [service] Scheduled job completed,186,0
+2026-03-04 00:41:31 INFO [service] Background sync finished,201,0
+2026-03-04 00:45:31 ERROR [service] OutOfMemoryError occurred,40,1
+2026-03-04 00:48:31 INFO [service] Background sync finished,181,0
+2026-03-04 00:50:31 ERROR [service] Connection pool exhausted,20,1
+2026-03-04 00:53:31 ERROR [service] Primary node unreachable,0,1
+2026-03-04 00:54:31 ERROR [service] Primary node unreachable,31,1
+2026-03-04 00:59:31 INFO [service] Background sync finished,171,0
+2026-03-04 01:02:31 INFO [service] Background sync finished,148,0
+2026-03-04 01:06:31 ERROR [service] TimeoutException in service Y,38,1
+2026-03-04 01:09:31 ERROR [service] OutOfMemoryError occurred,17,1
+2026-03-04 01:11:31 WARN [service] Thread pool nearing capacity,55,1
+2026-03-04 01:13:31 INFO [service] Application started successfully,146,0
+2026-03-04 01:15:31 INFO [service] Configuration loaded,161,0
+2026-03-04 01:16:31 WARN [service] Cache miss rate increasing,43,1
+2026-03-04 01:17:31 ERROR [service] TimeoutException in service Y,21,1
+2026-03-04 01:19:31 ERROR [service] Connection pool exhausted - retry attempt logged,21,1
+2026-03-04 01:20:31 WARN [service] High memory usage detected,81,1
+2026-03-04 01:24:31 INFO [service] Scheduled job completed,188,0
+2026-03-04 01:28:31 INFO [service] Scheduled job completed,107,0
+2026-03-04 01:29:31 ERROR [service] Segmentation fault detected,29,1
+2026-03-04 01:33:31 WARN [service] High memory usage detected,86,1
+2026-03-04 01:37:31 INFO [service] Health check passed - retry attempt logged,191,0
+2026-03-04 01:39:31 WARN [service] Cache miss rate increasing,67,0
+2026-03-04 01:41:31 INFO [service] Application started successfully,125,0
+2026-03-04 01:44:31 INFO [service] Configuration loaded,143,0
+2026-03-04 01:45:31 ERROR [service] Connection pool exhausted,21,1
+2026-03-04 01:50:31 ERROR [service] OutOfMemoryError occurred,37,1
+2026-03-04 01:52:31 INFO [service] User login successful,172,0
+2026-03-04 01:53:31 INFO [service] User login successful,123,0
+2026-03-04 01:56:31 INFO [service] User login successful,126,0
+2026-03-04 01:57:31 INFO [service] Scheduled job completed,136,0
+2026-03-04 02:01:31 WARN [service] Slow response detected in API,79,1
+2026-03-04 02:04:31 WARN [service] High memory usage detected - retry attempt logged,77,1
+2026-03-04 02:08:31 WARN [service] High memory usage detected,47,1
+2026-03-04 02:12:31 INFO [service] User login successful,92,0
+2026-03-04 02:13:31 INFO [service] Background sync finished,192,0
+2026-03-04 02:14:31 INFO [service] Service heartbeat received,100,0
+2026-03-04 02:17:31 WARN [service] High memory usage detected,54,1
+2026-03-04 02:21:31 WARN [service] Temporary DB failover triggered,88,1
+2026-03-04 02:22:31 WARN [service] Slow response detected in API - retry attempt logged,70,1
+2026-03-04 02:25:31 WARN [service] Slow response detected in API,16,0
+2026-03-04 02:27:31 INFO [service] Background sync finished - retry attempt logged,181,0
+2026-03-04 02:28:31 WARN [service] High memory usage detected,74,1
+2026-03-04 02:33:31 INFO [service] Background sync finished,146,0
+2026-03-04 02:36:31 WARN [service] Cache miss rate increasing,84,0
+2026-03-04 02:41:31 ERROR [service] Database connection lost,0,1
+2026-03-04 02:44:31 ERROR [service] Segmentation fault detected,7,0
+2026-03-04 02:49:31 WARN [service] Latency spike observed,87,0
+2026-03-04 02:53:31 INFO [service] Health check passed,78,0
+2026-03-04 02:55:31 WARN [service] Cache miss rate increasing,59,1
+2026-03-04 02:57:31 INFO [service] Service heartbeat received,107,0
+2026-03-04 02:58:31 INFO [service] Application started successfully,199,0
+2026-03-04 03:00:31 ERROR [service] TimeoutException in service Y,33,1
+2026-03-04 03:05:31 WARN [service] Latency spike observed,44,0
+2026-03-04 03:06:31 INFO [service] Health check passed,140,0
+2026-03-04 03:07:31 INFO [service] Background sync finished,201,0
+2026-03-04 03:09:31 WARN [service] Latency spike observed,36,0
+2026-03-04 03:13:31 ERROR [service] Segmentation fault observed,1,0
+2026-03-04 03:14:31 INFO [service] Configuration loaded - retry attempt logged,163,0
+2026-03-04 03:15:31 ERROR [service] Database connection lost - retry attempt logged,34,0
+2026-03-04 03:16:31 ERROR [service] Connection pool exhausted,17,0
+2026-03-04 03:21:31 ERROR [service] Primary node unreachable - retry attempt logged,0,1
+2026-03-04 03:22:31 INFO [service] Background sync finished - retry attempt logged,169,0
+2026-03-04 03:26:31 ERROR [service] TimeoutException in service Y,17,1
+2026-03-04 03:28:31 INFO [service] Health check passed,154,0
+2026-03-04 03:32:31 INFO [service] Application started successfully,101,0
+2026-03-04 03:33:31 ERROR [service] OutOfMemoryError occurred,0,0
+2026-03-04 03:36:31 ERROR [service] Connection pool exhausted,18,1
+2026-03-04 03:37:31 INFO [service] Scheduled job completed,86,0
+2026-03-04 03:39:31 WARN [service] High memory usage detected,69,1
+2026-03-04 03:40:31 WARN [service] High memory usage detected - retry attempt logged,24,0
+2026-03-04 03:45:31 ERROR [service] Service crashed unexpectedly,9,1
+2026-03-04 03:48:31 WARN [service] Cache miss rate increasing,54,0
+2026-03-04 03:51:31 INFO [service] Background sync finished,149,0
+2026-03-04 03:56:31 INFO [service] Scheduled job completed,92,0
+2026-03-04 03:58:31 WARN [service] Latency spike observed,43,0
+2026-03-04 03:59:31 WARN [service] Latency spike observed,62,0
+2026-03-04 04:03:31 INFO [service] User login successful,95,0
+2026-03-04 04:05:31 ERROR [service] NullPointerException in module X,18,0
+2026-03-04 04:08:31 WARN [service] High memory usage detected,66,1
+2026-03-04 04:13:31 ERROR [service] Connection pool exhausted,28,0
+2026-03-04 04:15:31 INFO [service] Application started successfully,110,0
+2026-03-04 04:16:31 ERROR [service] TimeoutException in service Y,26,0
+2026-03-04 04:20:31 WARN [service] Slow response detected in API - retry attempt logged,41,1
+2026-03-04 04:21:31 INFO [service] Health check passed,146,0
+2026-03-04 04:23:31 WARN [service] High memory usage detected,72,1
+2026-03-04 04:27:31 INFO [service] Health check passed,182,0
+2026-03-04 04:31:31 WARN [service] Cache miss rate increasing,90,0
+2026-03-04 04:32:31 INFO [service] Configuration loaded,166,0
+2026-03-04 04:35:31 INFO [service] Scheduled job completed,113,0
+2026-03-04 04:37:31 ERROR [service] OutOfMemoryError occurred,20,1
+2026-03-04 04:39:31 ERROR [service] TimeoutException in service Y,18,0
+2026-03-04 04:41:31 WARN [service] Disk usage above 80%,66,1
+2026-03-04 04:44:31 WARN [service] Slow response detected in API,37,0
+2026-03-04 04:48:31 WARN [service] Cache miss rate increasing,22,0
+2026-03-04 04:51:31 INFO [service] Application started successfully,139,0
+2026-03-04 04:56:31 WARN [service] Thread pool nearing capacity,37,0
+2026-03-04 04:59:31 ERROR [service] TimeoutException in service Y,8,1
+2026-03-04 05:02:31 WARN [service] Slow response detected in API,88,0
+2026-03-04 05:06:31 ERROR [service] OutOfMemoryError occurred,13,1
+2026-03-04 05:07:31 WARN [service] Temporary DB failover triggered,43,0
+2026-03-04 05:11:31 INFO [service] Service heartbeat received,118,0
+2026-03-04 05:15:31 ERROR [service] Segmentation fault detected,19,1
+2026-03-04 05:20:31 ERROR [service] Database connection lost,22,1
+2026-03-04 05:23:31 ERROR [service] Primary node unreachable,26,0
+2026-03-04 05:28:31 INFO [service] Background sync finished,110,0
+2026-03-04 05:29:31 INFO [service] Service heartbeat received,106,0
+2026-03-04 05:33:31 INFO [service] User login successful - retry attempt logged,124,0
+2026-03-04 05:38:31 WARN [service] High memory usage detected,74,0
+2026-03-04 05:41:31 INFO [service] Configuration loaded,116,0
+2026-03-04 05:42:31 INFO [service] Background sync finished,150,0
+2026-03-04 05:47:31 INFO [service] Health check passed,187,0
+2026-03-04 05:49:31 WARN [service] Disk usage above 80%,32,0
+2026-03-04 05:53:31 INFO [service] Service heartbeat received - retry attempt logged,212,0
+2026-03-04 05:58:31 ERROR [service] Service crashed unexpectedly,24,1
+2026-03-04 06:02:31 WARN [service] Slow response detected in API,56,0
+2026-03-04 06:04:31 WARN [service] Slow response detected in API,67,0
+2026-03-04 06:05:31 INFO [service] Service heartbeat received,139,0
+2026-03-04 06:10:31 INFO [service] Scheduled job completed,139,0
+2026-03-04 06:12:31 INFO [service] User login successful,163,0
+2026-03-04 06:13:31 ERROR [service] OutOfMemoryError occurred,24,1
+2026-03-04 06:15:31 WARN [service] Disk usage above 80% - retry attempt logged,64,0
+2026-03-04 06:20:31 WARN [service] Disk usage above 80%,74,0
+2026-03-04 06:23:31 INFO [service] User login successful,132,0
+2026-03-04 06:24:31 WARN [service] Thread pool nearing capacity,13,0
+2026-03-04 06:29:31 ERROR [service] Connection pool exhausted,20,1
+2026-03-04 06:34:31 INFO [service] User login successful,87,0
+2026-03-04 06:36:31 WARN [service] Disk usage above 80%,98,1
+2026-03-04 06:37:31 INFO [service] Configuration loaded,163,0
+2026-03-04 06:39:31 WARN [service] Cache miss rate increasing,55,0
+2026-03-04 06:44:31 INFO [service] Background sync finished,83,0
+2026-03-04 06:48:31 ERROR [service] Connection pool exhausted,26,1
+2026-03-04 06:52:31 INFO [service] Service heartbeat received,136,0
+2026-03-04 06:54:31 WARN [service] Thread pool nearing capacity,70,0
+2026-03-04 06:56:31 INFO [service] Scheduled job completed,159,0
+2026-03-04 06:58:31 ERROR [service] Primary node unreachable,23,1
+2026-03-04 06:59:31 INFO [service] Background sync finished - retry attempt logged,114,0
+2026-03-04 07:00:31 INFO [service] Scheduled job completed,139,0
+2026-03-04 07:05:31 ERROR [service] Segmentation fault detected,17,1
+2026-03-04 07:09:31 ERROR [service] OutOfMemoryError occurred,3,0
+2026-03-04 07:10:31 WARN [service] Cache miss rate increasing,61,0
+2026-03-04 07:13:31 ERROR [service] NullPointerException in module X,32,1
+2026-03-04 07:17:31 ERROR [service] Segmentation fault detected,11,1
+2026-03-04 07:22:31 WARN [service] Latency spike observed,96,1
+2026-03-04 07:26:31 ERROR [service] OutOfMemoryError occurred,0,0
+2026-03-04 07:30:31 ERROR [service] Primary node unreachable,22,0
+2026-03-04 07:35:31 INFO [service] Background sync finished,91,0
+2026-03-04 07:36:31 ERROR [service] NullPointerException in module X,32,1
+2026-03-04 07:38:31 INFO [service] Application started successfully,128,1
+2026-03-04 07:42:31 INFO [service] User login successful,139,0
+2026-03-04 07:45:31 ERROR [service] TimeoutException in service Y,19,1
+2026-03-04 07:47:31 INFO [service] Background sync finished,149,0
+2026-03-04 07:51:31 WARN [service] Slow response detected in API,89,1
+2026-03-04 07:54:31 ERROR [service] Connection pool exhausted,24,0
+2026-03-04 07:59:31 WARN [service] High memory usage detected,77,1
+2026-03-04 08:01:31 INFO [service] Health check passed,179,0
+2026-03-04 08:06:31 INFO [service] Service heartbeat received,99,0
+2026-03-04 08:07:31 ERROR [service] TimeoutException in service Y,15,0
+2026-03-04 08:11:31 INFO [service] Application started successfully,137,0
+2026-03-04 08:16:31 INFO [service] Application started successfully,141,0
+2026-03-04 08:18:31 WARN [service] High memory usage detected - retry attempt logged,51,1
+2026-03-04 08:22:31 ERROR [service] Service crashed unexpectedly,26,1
+2026-03-04 08:25:31 INFO [service] User login successful,137,0
+2026-03-04 08:30:31 INFO [service] Service heartbeat received,97,0
+2026-03-04 08:33:31 INFO [service] Scheduled job completed,151,0
+2026-03-04 08:35:31 ERROR [service] Primary node unreachable,24,1
+2026-03-04 08:39:31 INFO [service] Health check passed,71,0
+2026-03-04 08:40:31 INFO [service] Service heartbeat received,119,0
+2026-03-04 08:43:31 ERROR [service] Connection pool exhausted,14,1
+2026-03-04 08:44:31 INFO [service] User login successful,92,1
+2026-03-04 08:46:31 ERROR [service] Connection pool exhausted,35,1
+2026-03-04 08:47:31 WARN [service] Disk usage above 80%,58,1
+2026-03-04 08:52:31 INFO [service] Configuration loaded,97,0
+2026-03-04 08:53:31 INFO [service] Scheduled job completed,106,0
+2026-03-04 08:57:31 INFO [service] Service heartbeat received,111,0
+2026-03-04 08:58:31 WARN [service] Latency spike observed,89,1
+2026-03-04 09:03:31 WARN [service] Temporary DB failover triggered,86,0
+2026-03-04 09:08:31 INFO [service] Background sync finished,161,0
+2026-03-04 09:12:31 WARN [service] Slow response detected in API,63,0
+2026-03-04 09:16:31 WARN [service] Latency spike observed - retry attempt logged,58,0
+2026-03-04 09:20:31 WARN [service] Cache miss rate increasing - retry attempt logged,59,0
+2026-03-04 09:22:31 INFO [service] User login successful,142,0
+2026-03-04 09:26:31 WARN [service] High memory usage detected,58,1
+2026-03-04 09:29:31 WARN [service] Cache miss rate increasing,44,0
+2026-03-04 09:30:31 WARN [service] Thread pool nearing capacity - retry attempt logged,31,0
+2026-03-04 09:32:31 INFO [service] Background sync finished,95,0
+2026-03-04 09:37:31 WARN [service] Temporary DB failover triggered,59,1
+2026-03-04 09:39:31 INFO [service] Scheduled job completed,148,0
+2026-03-04 09:43:31 ERROR [service] TimeoutException in service Y,36,1
+2026-03-04 09:46:31 INFO [service] Configuration loaded,124,1
+2026-03-04 09:50:31 INFO [service] Scheduled job completed,106,0
+2026-03-04 09:52:31 WARN [service] Slow response detected in API,70,0
+2026-03-04 09:56:31 INFO [service] Service heartbeat received - retry attempt logged,183,0
+2026-03-04 09:59:31 INFO [service] Configuration loaded,101,0
+2026-03-04 10:04:31 ERROR [service] TimeoutException in service Y,13,1
+2026-03-04 10:07:31 INFO [service] Background sync finished - retry attempt logged,147,0
+2026-03-04 10:12:31 WARN [service] Disk usage above 80%,41,1
+2026-03-04 10:15:31 INFO [service] Service heartbeat received,94,0
+2026-03-04 10:16:31 WARN [service] Thread pool nearing capacity,85,0
+2026-03-04 10:19:31 INFO [service] Scheduled job completed - retry attempt logged,125,0
+2026-03-04 10:22:31 INFO [service] Application started successfully,96,0
+2026-03-04 10:27:31 INFO [service] Health check passed,183,0
+2026-03-04 10:29:31 INFO [service] Application started successfully,181,0
+2026-03-04 10:32:31 ERROR [service] Primary node unreachable,15,1
+2026-03-04 10:37:31 WARN [service] Latency spike observed,82,0
+2026-03-04 10:42:31 WARN [service] Temporary DB failover triggered - retry attempt logged,60,1
+2026-03-04 10:46:31 WARN [service] Slow response observed in API,34,0
+2026-03-04 10:51:31 ERROR [service] TimeoutException in service Y,5,1
+2026-03-04 10:56:31 INFO [service] User login successful - retry attempt logged,190,0
+2026-03-04 10:57:31 INFO [service] Application started successfully,140,0
+2026-03-04 10:58:31 INFO [service] Service heartbeat received - retry attempt logged,123,1
+2026-03-04 10:59:31 ERROR [service] Connection pool exhausted,35,1
+2026-03-04 11:04:31 ERROR [service] Service crashed unexpectedly,37,1
+2026-03-04 11:06:31 INFO [service] Background sync finished,112,0
+2026-03-04 11:07:31 INFO [service] Application started successfully,143,0
+2026-03-04 11:09:31 INFO [service] Application started successfully,145,0
+2026-03-04 11:10:31 INFO [service] Health check passed,179,0
+2026-03-04 11:11:31 INFO [service] Background sync finished,163,0
+2026-03-04 11:12:31 WARN [service] Slow response detected in API,38,0
+2026-03-04 11:15:31 WARN [service] High memory usage detected,70,1
+2026-03-04 11:20:31 INFO [service] Configuration loaded,209,0
+2026-03-04 11:22:31 INFO [service] Scheduled job completed,109,0
+2026-03-04 11:23:31 WARN [service] High memory usage detected,40,0
+2026-03-04 11:24:31 INFO [service] Health check passed - retry attempt logged,145,1
+2026-03-04 11:26:31 ERROR [service] Segmentation fault detected,37,1
+2026-03-04 11:30:31 ERROR [service] NullPointerException in module X,3,1
+2026-03-04 11:33:31 WARN [service] Slow response detected in API,39,0
+2026-03-04 11:36:31 INFO [service] Health check passed,159,0
+2026-03-04 11:40:31 INFO [service] Application started successfully,176,0
+2026-03-04 11:44:31 INFO [service] Application started successfully,181,0
+2026-03-04 11:45:31 WARN [service] Latency spike observed,73,0
+2026-03-04 11:48:31 INFO [service] Health check passed,99,0
+2026-03-04 11:51:31 INFO [service] User login successful,128,0
+2026-03-04 11:56:31 WARN [service] Disk usage above 80%,27,0
+2026-03-04 11:57:31 INFO [service] User login successful,106,0
+2026-03-04 12:01:31 INFO [service] Service heartbeat received,204,0
+2026-03-04 12:03:31 INFO [service] User login successful,167,0
+2026-03-04 12:07:31 ERROR [service] Service crashed unexpectedly,28,1
+2026-03-04 12:08:31 ERROR [service] NullPointerException in module X,9,1
+2026-03-04 12:10:31 INFO [service] Application started successfully,156,0
+2026-03-04 12:11:31 INFO [service] Scheduled job completed,179,0
+2026-03-04 12:14:31 WARN [service] High memory usage detected,35,1
+2026-03-04 12:17:31 ERROR [service] Database connection lost,15,1
+2026-03-04 12:20:31 ERROR [service] OutOfMemoryError occurred,16,1
+2026-03-04 12:22:31 ERROR [service] Connection pool exhausted - retry attempt logged,29,1
+2026-03-04 12:25:31 ERROR [service] Primary node unreachable,12,1
+2026-03-04 12:29:31 INFO [service] Configuration loaded,100,0
+2026-03-04 12:34:31 WARN [service] Temporary DB failover triggered,71,1
+2026-03-04 12:38:31 WARN [service] Thread pool nearing capacity,46,0
+2026-03-04 12:42:31 WARN [service] Slow response detected in API,24,0
+2026-03-04 12:45:31 INFO [service] Configuration loaded,191,0
+2026-03-04 12:50:31 WARN [service] High memory usage detected,48,1
+2026-03-04 12:54:31 INFO [service] User login successful,138,1
+2026-03-04 12:56:31 ERROR [service] Segmentation fault detected,26,1
+2026-03-04 13:01:31 INFO [service] Background sync finished,190,0
+2026-03-04 13:04:31 INFO [service] Health check passed,129,0
+2026-03-04 13:09:31 WARN [service] Slow response detected in API,79,1
+2026-03-04 13:11:31 ERROR [service] Segmentation fault detected,15,1
+2026-03-04 13:13:31 WARN [service] Slow response detected in API,79,0
+2026-03-04 13:18:31 WARN [service] Slow response detected in API - retry attempt logged,67,1
+2026-03-04 13:20:31 WARN [service] Latency spike observed - retry attempt logged,77,0
+2026-03-04 13:22:31 ERROR [service] Database connection lost,28,1
+2026-03-04 13:25:31 ERROR [service] Segmentation fault detected,33,1
+2026-03-04 13:29:31 WARN [service] Thread pool nearing capacity,77,1
+2026-03-04 13:30:31 ERROR [service] Database connection lost,21,1
+2026-03-04 13:34:31 WARN [service] Latency spike observed,63,0
+2026-03-04 13:37:31 WARN [service] Cache miss rate increasing,80,0
+2026-03-04 13:39:31 INFO [service] Health check passed,182,0
+2026-03-04 13:44:31 ERROR [service] Service crashed unexpectedly - retry attempt logged,0,1
+2026-03-04 13:45:31 INFO [service] Background sync finished,187,0
+2026-03-04 13:47:31 WARN [service] Latency spike observed,51,0
+2026-03-04 13:51:31 INFO [service] Service heartbeat received - retry attempt logged,184,0
+2026-03-04 13:52:31 ERROR [service] Connection pool exhausted,0,0
+2026-03-04 13:56:31 WARN [service] Thread pool nearing capacity,22,0
+2026-03-04 13:59:31 INFO [service] Application started successfully,175,0
+2026-03-04 14:00:31 ERROR [service] NullPointerException in module X - retry attempt logged,22,1
+2026-03-04 14:02:31 WARN [service] Cache miss rate increasing,58,0
+2026-03-04 14:05:31 WARN [service] Latency spike observed,35,1
+2026-03-04 14:08:31 INFO [service] Service heartbeat received,106,0
+2026-03-04 14:12:31 INFO [service] Service heartbeat received,80,0
+2026-03-04 14:14:31 INFO [service] Scheduled job completed,168,0
+2026-03-04 14:19:31 ERROR [service] NullPointerException in module X,7,1
+2026-03-04 14:22:31 INFO [service] Health check passed,148,0
+2026-03-04 14:25:31 WARN [service] Temporary DB failover triggered,73,1
+2026-03-04 14:26:31 WARN [service] High memory usage detected,71,1
+2026-03-04 14:31:31 WARN [service] Disk usage above 80%,34,0
+2026-03-04 14:34:31 INFO [service] Scheduled job completed,179,0
+2026-03-04 14:39:31 INFO [service] Configuration loaded,187,1
+2026-03-04 14:44:31 INFO [service] Health check passed,141,0
+2026-03-04 14:46:31 INFO [service] Scheduled job completed,152,1
+2026-03-04 14:50:31 INFO [service] Background sync finished,136,0
+2026-03-04 14:54:31 WARN [service] Slow response observed in API,32,0
+2026-03-04 14:57:31 WARN [service] Disk usage above 80%,39,1
+2026-03-04 14:59:31 ERROR [service] Primary node unreachable,35,1
+2026-03-04 15:04:31 WARN [service] Thread pool nearing capacity,75,0
+2026-03-04 15:09:31 WARN [service] Latency spike observed,39,0
+2026-03-04 15:13:31 INFO [service] Configuration loaded,136,0
+2026-03-04 15:18:31 INFO [service] Application started successfully,172,0
+2026-03-04 15:19:31 INFO [service] Service heartbeat received,181,0
+2026-03-04 15:22:31 INFO [service] Service heartbeat received,93,1
+2026-03-04 15:27:31 WARN [service] Disk usage above 80%,59,0
+2026-03-04 15:28:31 INFO [service] Health check passed,108,0
+2026-03-04 15:33:31 WARN [service] High memory usage detected - retry attempt logged,52,1
+2026-03-04 15:37:31 INFO [service] Scheduled job completed,154,0
+2026-03-04 15:41:31 WARN [service] Cache miss rate increasing,69,0
+2026-03-04 15:45:31 WARN [service] Temporary DB failover triggered,78,0
+2026-03-04 15:46:31 ERROR [service] Service crashed unexpectedly - retry attempt logged,23,1
+2026-03-04 15:51:31 WARN [service] Slow response detected in API,51,0
+2026-03-04 15:55:31 INFO [service] Background sync finished,91,0
+2026-03-04 15:58:31 ERROR [service] TimeoutException in service Y,28,0
+2026-03-04 16:03:31 ERROR [service] NullPointerException in module X,42,1
+2026-03-04 16:07:31 ERROR [service] Database connection lost,35,0
+2026-03-04 16:09:31 ERROR [service] NullPointerException in module X,0,1
+2026-03-04 16:11:31 ERROR [service] Primary node unreachable,6,1
+2026-03-04 16:14:31 ERROR [service] OutOfMemoryError occurred,38,1
+2026-03-04 16:15:31 INFO [service] Configuration loaded - retry attempt logged,201,0
+2026-03-04 16:19:31 WARN [service] Cache miss rate increasing,50,0
+2026-03-04 16:24:31 ERROR [service] Database connection lost,25,1
+2026-03-04 16:29:31 ERROR [service] Segmentation fault detected,0,1
+2026-03-04 16:33:31 INFO [service] Service heartbeat received,80,0
+2026-03-04 16:34:31 INFO [service] Application started successfully,153,0
+2026-03-04 16:38:31 WARN [service] Thread pool nearing capacity,69,0
+2026-03-04 16:40:31 WARN [service] Latency spike observed,68,1
+2026-03-04 16:44:31 INFO [service] Background sync finished - retry attempt logged,111,0
+2026-03-04 16:46:31 ERROR [service] TimeoutException in service Y,18,1
+2026-03-04 16:48:31 WARN [service] Disk usage above 80%,32,0
+2026-03-04 16:52:31 INFO [service] Application started successfully,157,0
+2026-03-04 16:57:31 INFO [service] Scheduled job completed,178,1
+2026-03-04 16:59:31 WARN [service] Disk usage above 80%,15,1
+2026-03-04 17:00:31 ERROR [service] Service crashed unexpectedly,9,1
+2026-03-04 17:03:31 WARN [service] High memory usage detected,64,1
+2026-03-04 17:06:31 WARN [service] High memory usage detected - retry attempt logged,88,1
+2026-03-04 17:09:31 WARN [service] Disk usage above 80%,20,0
+2026-03-04 17:10:31 INFO [service] Application started successfully,91,1
+2026-03-04 17:15:31 INFO [service] Application started successfully - retry attempt logged,173,0
+2026-03-04 17:19:31 WARN [service] Cache miss rate increasing,43,0
+2026-03-04 17:23:31 INFO [service] User login successful,149,0
+2026-03-04 17:26:31 WARN [service] Temporary DB failover triggered,68,0
+2026-03-04 17:31:31 ERROR [service] Service crashed unexpectedly,3,0
+2026-03-04 17:35:31 INFO [service] Health check passed,132,0
+2026-03-04 17:36:31 WARN [service] Cache miss rate increasing,58,1
+2026-03-04 17:38:31 WARN [service] Slow response detected in API,45,0
+2026-03-04 17:39:31 ERROR [service] Segmentation fault detected,16,1
+2026-03-04 17:40:31 INFO [service] Service heartbeat received,181,0
+2026-03-04 17:45:31 INFO [service] Service heartbeat received,117,0
+2026-03-04 17:50:31 INFO [service] Service heartbeat received - retry attempt logged,108,0
+2026-03-04 17:55:31 ERROR [service] OutOfMemoryError occurred,19,1
+2026-03-04 17:58:31 WARN [service] Cache miss rate increasing,31,0
+2026-03-04 18:03:31 ERROR [service] Primary node unreachable,11,1
+2026-03-04 18:04:31 INFO [service] Background sync finished - retry attempt logged,111,0
+2026-03-04 18:09:31 WARN [service] Thread pool nearing capacity - retry attempt logged,30,0
+2026-03-04 18:14:31 INFO [service] Scheduled job completed,82,0
+2026-03-04 18:19:31 INFO [service] Background sync finished,199,0
+2026-03-04 18:23:31 ERROR [service] Service crashed unexpectedly,22,1
+2026-03-04 18:28:31 INFO [service] Scheduled job completed,181,0
+2026-03-04 18:33:31 WARN [service] Thread pool nearing capacity,39,0
+2026-03-04 18:35:31 WARN [service] Thread pool nearing capacity,98,1
+2026-03-04 18:36:31 INFO [service] Background sync finished,185,0
+2026-03-04 18:41:31 ERROR [service] TimeoutException in service Y,13,1
+2026-03-04 18:46:31 ERROR [service] Connection pool exhausted,7,1
+2026-03-04 18:51:31 INFO [service] Configuration loaded,105,0
+2026-03-04 18:52:31 INFO [service] User login successful,180,0
+2026-03-04 18:53:31 ERROR [service] Database connection lost,37,1
+2026-03-04 18:56:31 INFO [service] Service heartbeat received,160,0
+2026-03-04 18:58:31 ERROR [service] Connection pool exhausted,19,0
+2026-03-04 18:59:31 INFO [service] Application started successfully,178,0
+2026-03-04 19:04:31 INFO [service] Scheduled job completed,175,0
+2026-03-04 19:08:31 INFO [service] Background sync finished - retry attempt logged,134,0
+2026-03-04 19:12:31 INFO [service] Application started successfully,195,0
+2026-03-04 19:17:31 WARN [service] Thread pool nearing capacity,59,1
+2026-03-04 19:20:31 ERROR [service] OutOfMemoryError occurred,17,1
+2026-03-04 19:23:31 WARN [service] Thread pool nearing capacity - retry attempt logged,76,0
+2026-03-04 19:28:31 INFO [service] Application started successfully,99,0
+2026-03-04 19:32:31 ERROR [service] Segmentation fault detected,14,1
+2026-03-04 19:33:31 WARN [service] Thread pool nearing capacity,68,0
+2026-03-04 19:36:31 ERROR [service] NullPointerException in module X,4,1
+2026-03-04 19:39:31 WARN [service] Temporary DB failover triggered,98,0
+2026-03-04 19:41:31 ERROR [service] Segmentation fault observed,32,1
+2026-03-04 19:46:31 WARN [service] Cache miss rate increasing,80,0
+2026-03-04 19:51:31 ERROR [service] Service crashed unexpectedly,0,0
+2026-03-04 19:55:31 INFO [service] Background sync finished - retry attempt logged,181,0
+2026-03-04 20:00:31 WARN [service] Thread pool nearing capacity,83,0
+2026-03-04 20:05:31 WARN [service] High memory usage detected,84,1
+2026-03-04 20:08:31 WARN [service] Temporary DB failover triggered,91,0
+2026-03-04 20:09:31 INFO [service] Background sync finished - retry attempt logged,107,1
+2026-03-04 20:12:31 ERROR [service] Service crashed unexpectedly,6,1
+2026-03-04 20:16:31 INFO [service] Application started successfully,158,0
+2026-03-04 20:19:31 INFO [service] Application started successfully,110,0
+2026-03-04 20:21:31 INFO [service] Scheduled job completed - retry attempt logged,160,0
+2026-03-04 20:22:31 INFO [service] Configuration loaded,166,0
+2026-03-04 20:23:31 INFO [service] Configuration loaded,110,0
+2026-03-04 20:25:31 WARN [service] High memory usage detected,55,0
+2026-03-04 20:30:31 WARN [service] Cache miss rate increasing - retry attempt logged,74,0
+2026-03-04 20:33:31 WARN [service] Disk usage above 80%,55,0
+2026-03-04 20:34:31 INFO [service] Background sync finished,90,0
+2026-03-03 15:01:12 CRITICAL [storage] Disk read failure detected on /dev/sda1,15,1
+2026-03-03 15:03:45 ERROR [filesystem] Filesystem corruption detected on /data volume,12,1
+2026-03-03 15:05:21 CRITICAL [storage] RAID array entered degraded state,11,1
+2026-03-03 15:07:02 ERROR [memory] OutOfMemoryError in worker process PID 8842,18,1
+2026-03-03 15:09:33 CRITICAL [kernel] Kernel panic triggered due to memory overflow,8,1
+2026-03-03 15:12:18 ERROR [database] Replication failure between primary and replica node,20,1
+2026-03-03 15:15:44 CRITICAL [auth] Authentication service crashed due to null pointer exception,14,1
+2026-03-03 15:18:29 ERROR [network] Packet loss exceeded 80 percent on eth0 interface,22,1
+2026-03-03 15:21:10 CRITICAL [payments] Payment processing service terminated unexpectedly,9,1
+2026-03-03 15:23:55 ERROR [storage] Disk space critically low on /var partition,16,1
+2026-03-03 15:26:17 CRITICAL [cpu] CPU usage exceeded 99 percent for sustained duration,13,1
+2026-03-03 15:28:49 ERROR [cache] Redis server not responding to heartbeat checks,19,1
+2026-03-03 15:31:22 CRITICAL [security] SSL certificate expired causing service outage,21,1
+2026-03-03 15:34:07 ERROR [service] Cascading shutdown due to dependency failure,17,1
+2026-03-03 15:36:41 CRITICAL [network] Core router unreachable causing cluster isolation,10,1
+2026-03-03 16:01:12 WARNING [storage] Disk usage reached 75 percent on /home directory,120,0
+2026-03-03 16:03:45 INFO [auth] User login successful for user admin,300,0
+2026-03-03 16:05:21 WARNING [api] Response time increased above normal threshold,180,0
+2026-03-03 16:07:02 INFO [backup] Scheduled backup completed successfully,400,0
+2026-03-03 16:09:33 WARNING [memory] High memory usage detected but within safe limits,150,0
+2026-03-03 16:12:18 INFO [config] Configuration file reloaded without errors,350,0
+2026-03-03 16:15:44 WARNING [auth] Multiple failed login attempts detected from IP 10.0.0.5,200,0
+2026-03-03 16:18:29 INFO [cache] Cache cleared successfully for billing service,380,0
+2026-03-03 16:21:10 WARNING [service] Service response delayed due to high load,160,0
+2026-03-03 16:23:55 INFO [users] New user account created successfully,420,0
+2026-03-03 16:26:17 WARNING [api] Deprecated endpoint accessed by client application,210,0
+2026-03-03 16:28:49 INFO [system] Health check passed successfully,500,0
+2026-03-03 16:31:22 WARNING [cpu] CPU usage at 70 percent for 5 minutes,170,0
+2026-03-03 16:34:07 INFO [jobs] Background job executed without failure,450,0
+2026-03-03 16:36:41 WARNING [network] Minor packet loss detected under threshold,190,0
