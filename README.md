@@ -246,7 +246,7 @@ Example response
 ## Clone repository
 
 ```bash
-git clone https://github.com/<your-username>/log-warden.git
+git clone https://github.com/vishaltelukoti/log-warden.git
 cd log-warden
 ```
 
