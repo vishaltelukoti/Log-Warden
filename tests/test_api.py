@@ -11,7 +11,7 @@ def test_health_endpoint_returns_running_status(client) -> None:
     response_data = response.get_json()
 
     assert response.status_code == 200
-    assert response_data["status"] == "running"
+    assert response_data["status"] == "ok"
 
 
 def test_analyze_endpoint_returns_successful_analysis_for_low_severity(
