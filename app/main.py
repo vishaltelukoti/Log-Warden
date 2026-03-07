@@ -26,7 +26,7 @@ def health() -> tuple:
     Returns:
         JSON response indicating service status.
     """
-    return jsonify({"status": "running"}), 200
+    return jsonify({"status": "ok"}), 200
 
 
 @app.route("/analyze", methods=["POST"])
