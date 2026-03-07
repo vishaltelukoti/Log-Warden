@@ -1,5 +1,6 @@
 """Model training script for the Log Warden ML pipeline."""
 
+from __future__ import annotations
 
 """
 Model Selection Explanation
@@ -16,7 +17,6 @@ decision trees, leading to more robust predictions compared to linear models.
 Generalization was ensured using an 80/20 train-test split and cross-validation.
 """
 
-from __future__ import annotations
 
 from app.ml.models import MLModels
 

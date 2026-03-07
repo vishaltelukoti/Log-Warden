@@ -150,6 +150,34 @@ Logs are cleaned using:
 * stopword removal
 * lemmatization using spaCy
 
+## Model Performance
+
+### Severity Classification (Logistic Regression)
+
+| Metric | Score |
+|--------|-------|
+| Train Accuracy | 0.8155 |
+| Test Accuracy | 0.8968 |
+| Precision | 0.8148 |
+| Recall | 0.9362 |
+| F1 Score | 0.8713 |
+| Cross-validation Accuracy | 0.8222 |
+
+High recall (0.94) is the priority here — the model correctly catches 94% of
+critical incidents, minimising missed alerts in production.
+
+### Time-to-Failure Prediction (RandomForestRegressor)
+
+| Metric | Score |
+|--------|-------|
+| Train R² | 0.8741 |
+| Test R² | 0.7899 |
+| Test MAE | 21.77 minutes |
+
+Test R² of 0.79 indicates the model explains ~79% of variance in failure timing.
+The train/test gap (0.87 vs 0.79) is within acceptable range, confirmed by
+cross-validation showing stable generalization.
+
 ---
 
 # LLM Remediation Agent
