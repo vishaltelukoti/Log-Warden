@@ -221,7 +221,7 @@ Response
 
 ```json
 {
-  "status": "running"
+  "status": "ok"
 }
 ```
 
@@ -346,6 +346,10 @@ http://localhost:5000
 
 # Running with Docker
 
+The Dockerfile uses a **multi-stage build** — dependencies are compiled in a 
+builder stage and only the runtime artifacts are copied to the final image, 
+reducing the image size from ~1.46GB to ~1GB.
+
 ## Build Docker image
 
 ```bash
@@ -358,6 +362,11 @@ docker build -t log-warden .
 
 ```bash
 docker run --env-file .env -p 5000:5000 log-warden
+```
+
+## Check image size
+```bash
+docker images log-warden
 ```
 
 ---
