@@ -452,18 +452,6 @@ Used for model training.
 
 ---
 
-# Future Improvements
-
-Possible enhancements include:
-
-* real-time log ingestion
-* Kubernetes self-healing
-* monitoring dashboards
-* streaming log pipelines
-* reinforcement learning for remediation ranking
-
----
-
 # Author
 
 Vishal Telukoti
