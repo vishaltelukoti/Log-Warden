@@ -8,7 +8,7 @@ from typing import Dict, List
 import numpy as np
 import spacy
 
-# Load SpaCy model once at module initialization
+#load spacy model
 NLP_MODEL_NAME = "en_core_web_sm"
 nlp = spacy.load(NLP_MODEL_NAME)
 
@@ -55,9 +55,9 @@ def _remove_noise(text: str) -> str:
     Returns:
         Cleaned text with noise removed.
     """
-    text = re.sub(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}", "", text)  # timestamps
-    text = re.sub(r"\d+\.\d+\.\d+\.\d+", "", text)                    # IP addresses
-    text = re.sub(r"\[.*?\]", "", text)                                # bracketed metadata
+    text = re.sub(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}", "", text)  #timestamps
+    text = re.sub(r"\d+\.\d+\.\d+\.\d+", "", text)                    #IP addresses
+    text = re.sub(r"\[.*?\]", "", text)                                #bracketed metadata
     return text.lower()
 
 

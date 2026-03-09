@@ -40,7 +40,7 @@ class MLModels:
     def __init__(self) -> None:
         """Initialize empty model and vectorizer instances."""
         self.vectorizer: Optional[TfidfVectorizer] = None
-        # Note: RandomForestRegressor used instead of LinearRegression (as per rubric)
+        # RandomForestRegressor used instead of LinearRegression 
         # due to significantly better R² on this dataset (non-linear log relationships).
         self.reg_model: Optional[RandomForestRegressor] = None
         self.clf_model: Optional[LogisticRegression] = None
@@ -68,8 +68,6 @@ class MLModels:
         tfidf_features = self.vectorizer.fit_transform(dataset["clean_text"])
 
         # Engineered numeric features 
-        # Captures structural signals TF-IDF misses: log length, error flags,
-        # severity keyword count, stack trace presence, digit ratio.
         numeric_features = np.vstack(
             dataset["log_text"].apply(get_numeric_feature_array).values
         )
